@@ -1,0 +1,507 @@
+body{
+    background-color: hsl(0, 0%, 55%);
+}
+
+.page{
+    width: 300px;
+    margin: -10px auto 0 auto;
+    background-color: white;
+}
+
+.desktop{
+  position: fixed;
+  background-color: aqua;
+  height: 90vh;
+  width: 300px;
+  display: ;
+  margin-top: -67px;
+  background-color: black;
+}
+
+.hamburger, .close{
+  margin: 0px 0px 25px 50px;
+  cursor: pointer;
+}
+
+.first-container{
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+}
+
+.navigation{
+  display: block;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.minilogo, .logo{
+    width: 150px;
+    padding: 20px;
+}
+
+  .mini-container{
+    border: 3px solid white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 210px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+  }
+
+  .mini-container2{
+    background-image: url(/images/mobile/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    margin: 100px 20px 20px 20px;
+  }
+
+  .second-container{
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 100px;
+  }
+
+  h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 41%);
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .describe{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 40px;
+    margin-right: 150px;
+    margin-left: 20px;
+  }
+
+  .creation4 .describe{
+    margin-right: 200px;
+  }
+
+  .second-container p{
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%);
+    margin: 0 30px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .creation1{
+    background-image: url(/images/mobile/image-deep-earth.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 20px;
+  }
+
+  .creation2{
+    background-image: url(/images/mobile/image-night-arcade.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation3{
+    background-image: url(/images/mobile/image-soccer-team.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation4{
+    background-image: url(/images/mobile/image-grid.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation5{
+    background-image: url(/images/mobile/image-from-above.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation6{
+    background-image: url(/images/mobile/image-pocket-borealis.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation7{
+    background-image: url(/images/mobile/image-curiosity.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation8{
+    background-image: url(/images/mobile/image-fisheye.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -80px 20px;
+  }
+
+  .creation1:hover, .creation2:hover, .creation3:hover, .creation4:hover, .creation5:hover, .creation6:hover, .creation7:hover, .creation8:hover{
+    cursor: pointer;
+    opacity: 0.3;
+  }
+
+  .describe p:hover{
+    color: black;
+  }
+
+  .more{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alata', sans-serif;
+  }
+
+  .more1{
+    display: none;
+  }
+
+  .footer{
+    background-color: black;
+    padding-top: 30px;
+    margin-bottom: -20px;
+  }
+
+  .logo2{
+    width: 130px;   
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+  .enquires a{
+    display: block; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .icon{
+    margin: 0 5px 0 10px;
+  }
+
+  .footer p{
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    box-shadow: none;
+  }
+
+  a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+
+  @media only screen and (min-width: 1200px){
+    .page{
+        width: fit-content;
+        padding: 0 80px;   
+        margin-bottom: -100px;
+      }    
+
+      .hamburger{
+        display: none;
+      }
+
+      .minilogo, .close{
+        display: none;
+      }
+
+    .first-container{
+        height: 550px;
+        width: 100;
+        background-image: url(/images/desktop/image-hero.jpg);
+        background-size: contain;
+        margin: 0 -80px;
+    }
+
+    .logo{
+        margin: 20px 0 0 80px;
+    }
+
+    .dropdown{
+        display: none;
+    }
+
+    .mini-container{
+        width: 450px;
+        height: 200px;
+        margin: 100px 0 0 100px;
+        padding: 0px 30px;
+        font-size: 50px;
+        padding-top: -20px;
+    }
+
+    .mini-container p{
+      margin: 30px 0;
+    }
+
+    .nav{
+        display: flex;
+    }
+
+    .desktop{
+        margin-left: 750px;
+        margin-top: -50px;
+        position: relative;
+        width: 400px;
+        background: transparent;
+        position: absolute;
+        background: transparent;
+    }
+
+    .desktop a{
+      font-size: 13px;
+      background: transparent;
+      text-transform: none;
+    }
+
+   .navigation{
+        display: inline;
+        text-align: right;
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+    }
+
+    .second-container{
+        display: flex;
+    }
+
+    .mini-container2{
+        background-image: url(/images/desktop/image-interactive.jpg);
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 500px;
+        z-index: 1;
+
+    }
+
+    .writeup{
+        background-color: white;
+        width: 450px;
+        height: 300px;
+        padding: 0 50px;
+        padding-top: 50px;
+        z-index: 20;
+        position: relative;
+        top: 305px;
+        right: 200px;
+    }
+
+    .writeup p{
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .writeup h2{
+        text-align: left;
+        font-size: 40px;
+        padding-left: 30px;
+    }
+
+    .third-container{
+        display: grid;
+        grid-template-columns: 280px 280px 280px 280px;
+        grid-template-rows: 400px 400px;
+        margin: 30px 150px 100px 10px;
+    }
+
+    .button1{
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .button1 h2{
+        text-align: left;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .more1{
+        margin: 25px 0 0 570px;
+        width: 150px;
+        height: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .describe p{
+      margin-top: 270px;
+      margin-left: 10px;
+      font-size: 30px;
+    }
+
+    .creation5 .describe p{
+      width: 200px;
+    }
+
+    .creation1{
+        background-image: url(/images/desktop/image-deep-earth.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0px;
+      }
+    
+      .creation2{
+        background-image: url(/images/desktop/image-night-arcade.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -20px;
+        margin-top: 3px;
+      }
+    
+      .creation3{
+        background-image: url(/images/desktop/image-soccer-team.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0px 0px;
+        margin-left: -40px;
+      }
+    
+      .creation4{
+        background-image: url(/images/desktop/image-grid.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 0px;
+        margin-left: -60px;
+      }
+    
+      .creation5{
+        background-image: url(/images/desktop/image-from-above.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 30px 0px;
+        margin-left: 0px;
+      }
+    
+      .creation6{
+        background-image: url(/images/desktop/image-pocket-borealis.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 30px 10px;
+        margin-left: -20px;
+      }
+    
+      .creation7{
+        background-image: url(/images/desktop/image-curiosity.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 30px 10px;
+        margin-left: -40px;
+      }
+    
+      .creation8{
+        background-image: url(/images/desktop/image-fisheye.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 30px 10px;
+        margin-left: -60px;
+      }
+
+      .more{
+        display: none;
+      }
+
+      .logo2{
+        width: 100px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+      }
+
+      .enquires{
+        display: flex;
+        gap: 20px;
+      }
+
+      a{
+        font-size: 10px;
+      }
+
+      .icons{
+        margin: 0%;
+        float: right;
+      }
+
+      .pushing p{
+        clear: left;
+        margin-top: 20px;
+        font-size: 10px;
+      }
+
+      .footer{
+        display: flex;
+        margin-left: -80px;
+        row-gap: 200px;
+      }
+
+      .footer-right{
+        margin-left: 580px;
+      }
+
+      .footer-left{
+        margin-left: 90px;
+      }
+  }
