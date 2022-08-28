@@ -13,9 +13,14 @@ body{
   background-color: aqua;
   height: 90vh;
   width: 300px;
-  display: ;
   margin-top: -67px;
   background-color: black;
+  transform: translateX(300%);
+  transition: 0.5s ease-in;
+}
+
+.desktop-open{
+  transform: translateX(0);
 }
 
 .hamburger, .close{
@@ -301,6 +306,8 @@ body{
         background: transparent;
         position: absolute;
         background: transparent;
+        transform: translateX(0);
+        transition: none;
     }
 
     .desktop a{
