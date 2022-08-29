@@ -251,10 +251,16 @@ body{
   }
 
   @media only screen and (min-width: 1200px){
+    body{
+      -ms-overflow-style: hidden;
+    }
+    
     .page{
-        width: fit-content;
+        width: 1050px;
         padding: 0 80px;   
         margin-bottom: -100px;
+        margin-left: -10px;
+        margin-right: -10px;
       }    
 
       .hamburger{
