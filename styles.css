@@ -95,7 +95,7 @@ body{
     margin-left: 20px;
   }
 
-  .creation4 .describe{
+  #creation4 .describe{
     margin-right: 200px;
   }
 
@@ -107,7 +107,7 @@ body{
     line-height: 20px;
   }
 
-  .creation1{
+  #creation1{
     background-image: url(/images/mobile/image-deep-earth.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body{
     margin: 0px 20px;
   }
 
-  .creation2{
+  #creation2{
     background-image: url(/images/mobile/image-night-arcade.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation3{
+  #creation3{
     background-image: url(/images/mobile/image-soccer-team.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation4{
+  #creation4{
     background-image: url(/images/mobile/image-grid.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation5{
+  #creation5{
     background-image: url(/images/mobile/image-from-above.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation6{
+  #creation6{
     background-image: url(/images/mobile/image-pocket-borealis.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation7{
+  #creation7{
     background-image: url(/images/mobile/image-curiosity.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation8{
+  #creation8{
     background-image: url(/images/mobile/image-fisheye.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ body{
     margin: -80px 20px;
   }
 
-  .creation1:hover, .creation2:hover, .creation3:hover, .creation4:hover, .creation5:hover, .creation6:hover, .creation7:hover, .creation8:hover{
+  .phase:hover{
     cursor: pointer;
     opacity: 0.3;
   }
@@ -339,22 +339,22 @@ body{
     .mini-container2{
         background-image: url(/images/desktop/image-interactive.jpg);
         background-repeat: no-repeat;
-        width: 700px;
-        height: 500px;
+        width: 750px;
+        height: 400px;
         z-index: 1;
 
     }
 
     .writeup{
         background-color: white;
-        width: 450px;
-        height: 300px;
+        width: 650px;
+        height: 250px;
         padding: 0 50px;
-        padding-top: 50px;
+        padding-top: 30px;
         z-index: 20;
         position: relative;
-        top: 305px;
-        right: 200px;
+        top: 170px;
+        left: -120px;
     }
 
     .writeup p{
@@ -391,6 +391,7 @@ body{
         width: 150px;
         height: 35px;
         font-family: 'Josefin Sans', sans-serif;
+        display: block;
     }
 
     .describe p{
@@ -399,11 +400,11 @@ body{
       font-size: 30px;
     }
 
-    .creation5 .describe p{
+    #creation5 .describe p{
       width: 200px;
     }
 
-    .creation1{
+    #creation1{
         background-image: url(/images/desktop/image-deep-earth.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -411,7 +412,7 @@ body{
         margin-left: 0px;
       }
     
-      .creation2{
+      #creation2{
         background-image: url(/images/desktop/image-night-arcade.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -420,7 +421,7 @@ body{
         margin-top: 3px;
       }
     
-      .creation3{
+      #creation3{
         background-image: url(/images/desktop/image-soccer-team.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -429,7 +430,7 @@ body{
         margin-left: -40px;
       }
     
-      .creation4{
+      #creation4{
         background-image: url(/images/desktop/image-grid.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -438,7 +439,7 @@ body{
         margin-left: -60px;
       }
     
-      .creation5{
+      #creation5{
         background-image: url(/images/desktop/image-from-above.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -447,7 +448,7 @@ body{
         margin-left: 0px;
       }
     
-      .creation6{
+      #creation6{
         background-image: url(/images/desktop/image-pocket-borealis.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -456,7 +457,7 @@ body{
         margin-left: -20px;
       }
     
-      .creation7{
+      #creation7{
         background-image: url(/images/desktop/image-curiosity.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -465,7 +466,7 @@ body{
         margin-left: -40px;
       }
     
-      .creation8{
+      #creation8{
         background-image: url(/images/desktop/image-fisheye.jpg);
         height: 400px;
         background-repeat: no-repeat;
@@ -508,6 +509,7 @@ body{
         display: flex;
         margin-left: -80px;
         row-gap: 200px;
+        width: 100vw;
       }
 
       .footer-right{
